@@ -3,9 +3,11 @@
 
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid(height, width) {
-  var table = document.getElementById("pixel_canvas");
-  var grid = '';
+const canvas = document.getElementById(“pixelCanvas”);
+const ctx = canvas.getContext(“2d”);
+ctx.fillStyle = “red”;
+ctx.fillRect(10, 10, 150, 150);
+
 
 // Your code goes here!
 
